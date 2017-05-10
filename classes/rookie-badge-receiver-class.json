@@ -1,0 +1,10 @@
+{
+    "@context": "https://w3id.org/openbadges/v1",
+    "type": "BadgeClass",
+    "id": "http://40.129.74.211/class/rookie-badge-receiver-class.json",
+    "name": "Rookie Badge Receiver",
+    "description": "Receives great new Open Badges",
+    "image": "http://40.129.74.211/badge/rookie-badge-receiver.png",
+    "criteria": "http://40.129.74.211/criteria/rookie-badge-receiver-criteria.html",
+    "issuer": "http://40.129.74.211/issuer/badge-issuer.json"
+}
