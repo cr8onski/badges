@@ -1,0 +1,7 @@
+{
+    "@context": "https://w3id.org/openbadges/v1",
+    "id": "http://40.129.74.211/issuer/badge-issuer.json",
+    "type": "Issuer",
+    "name": "ADL Open Badge Experimentation",
+    "url": "http://40.129.74.211"
+}
