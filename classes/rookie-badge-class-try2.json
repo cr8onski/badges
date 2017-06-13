@@ -1,0 +1,10 @@
+{
+    "@context": "https://w3id.org/openbadges/v1",
+    "type": "BadgeClass",
+    "id": "http://40.129.74.211/class/rookie-badge-class-try2",
+    "name": "Rookie Badge Issuer",
+    "description": "Issues great new Open Badges to self.",
+    "image": "http://40.129.74.211/badge/rookie-badge-issuer.png",
+    "criteria": "http://40.129.74.211/criteria/rookie-badge-criteria.html",
+    "issuer": "http://40.129.74.211/issuer/badge-issuer-try2.json"
+}

@@ -1,0 +1,17 @@
+{
+    "@context": "https://w3id.org/openbadges/v1",
+    "type": "Assertion",
+    "uid": "123403",
+    "id": "http://40.129.74.211/assertion/rookie-badge-receiver-award-kyle.json",
+    "recipient": {
+        "type": "email",
+        "identity": "kyle.moran.ctr@adlnet.gov",
+        "hashed": false
+    },
+    "issuedOn": "2017-05-04",
+    "badge": "http://40.129.74.211/class/rookie-badge-receiver-class.json",
+    "verify": {
+        "type": "hosted",
+        "url": "http://40.129.74.211/assertion/rookie-badge-receiver-award-kyle.json"
+    }
+}

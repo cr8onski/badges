@@ -1,0 +1,7 @@
+{
+    "@context": "https://w3id.org/openbadges/v1",
+    "id": "http://40.129.74.211/issuer/badge-issuer-try2.json",
+    "type": "Issuer",
+    "name": "Ang - Badge Issuer Extraordinaire",
+    "url": "http://40.129.74.211"
+}

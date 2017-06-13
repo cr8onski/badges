@@ -1,3 +1,14 @@
+Figuring out Open Badges
+
+Working off the Angular Tour of Heroes Tutorial
+Changing Heroes to Badges
+Confirm that it is running
+Adding more functionality to get it to where I want
+	Start with being able to add more input
+	Cover the essential pieces needed for creating a badge
+	Find a way to keep/persist the data/changes
+	That's a big chunk to start, we can get more wild later
+
 # Angular QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
 

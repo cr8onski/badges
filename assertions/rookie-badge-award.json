@@ -1,0 +1,14 @@
+{
+    "uid": "1234",
+    "recipient": {
+        "type": "email",
+        "identity": "cr8onski@gmail.com",
+        "hashed": false
+    },
+    "issuedOn": "1970-06-04T23:02:14.400Z",
+    "badge": "http://40.129.74.211/class/rookie-badge-class.json",
+    "verify": {
+        "type": "hosted",
+        "url": "http://40.129.74.221/assertion/rookie-badge-award.json"
+    }
+}
