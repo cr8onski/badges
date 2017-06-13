@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
         <h1>{{title}}</h1>
         <nav>
             <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-            <a routerLink="/badges" routerLinkActive="active">Badges</a>
+            <a routerLink="/list" routerLinkActive="active">Badges List</a>
+	    <a routerLink="/create" routerLinkActive="active">Create Badges</a>
         </nav>
         <router-outlet></router-outlet>
     `,

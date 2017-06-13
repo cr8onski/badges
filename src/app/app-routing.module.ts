@@ -22,6 +22,14 @@ const routes: Routes = [
     {
         path: 'detail/:id',
         component: BadgeDetailComponent
+    },
+    {
+	path: 'list',
+	component: BadgesComponent
+    },
+    {
+	path: 'create',
+	component: BadgeCreationComponent
     }
 ];
 
