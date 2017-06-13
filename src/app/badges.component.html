@@ -1,0 +1,23 @@
+<h2>Available Badges</h2>
+<div>
+    <label>Badge Name</label> <input #badgeName />
+    <button (click)="add(badgeName.value); badgeName.value=''">
+        Add
+    </button>
+</div>
+<ul class="badges">
+    <li *ngFor="let badge of badges"
+    [class.selected]="badge === selectedBadge"
+    (click)="onSelect(badge)">
+        <span class="badge">{{badge.id}}</span>
+        <span>{{badge.name}}</span>
+        <button class="delete" (click)="delete(badge); $event.stopPropagation()">x</button>
+    </li>
+</ul>
+
+<div *ngIf="selectedBadge">
+    <h2>
+        {{selectedBadge.name | uppercase}} is the Badge of the Day
+    </h2>
+    <button (click)="gotoDetail()">View Details</button>
+</div>

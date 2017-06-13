@@ -1,0 +1,9 @@
+<h3>Favorite Badges</h3>
+<div class="grid grid-pad">
+    <a *ngFor="let badge of badges" [routerLink]="['/detail', badge.id]" class="col-1-4">
+        <div class="module badge">
+            <h4>{{badge.name}}</h4>
+        </div>
+    </a>
+</div>
+<badge-search></badge-search>

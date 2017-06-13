@@ -1,0 +1,14 @@
+<div *ngIf="badge">
+    <h2>{{badge.name}} details!</h2>
+    <div><label>Id: </label>{{badge.id}}</div>
+    <div>
+        <label>Name: </label>
+        <input [(ngModel)]="badge.name" placeholder="name">
+    </div>
+    <div><label>Class: </label>{{badge.badgeClass}}</div>
+    <div><label>Issuer: </label>{{badge.issuer}}</div>
+    <div><label>Image: </label>{{badge.image}}</div>
+    <div><label>Assertions: </label>{{badge.assertions}}</div>
+    <button (click)="goBack()">Back</button>
+    <button (click)="save()">Save</button>
+</div>

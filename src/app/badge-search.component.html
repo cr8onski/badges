@@ -1,0 +1,10 @@
+<div id="search-component">
+    <h4>Badge Search</h4>
+    <input #searchBox id="search-box" (keyup)="search(searchBox.value)" />
+    <div>
+        <div *ngFor="let badge of badges | async"
+        (click)="gotoDetail(badge)" class="search-result" >
+            {{badge.name}}
+        </div>
+    </div>
+</div>
