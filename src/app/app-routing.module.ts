@@ -1,6 +1,7 @@
 import { NgModule }      from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { BadgeCreationComponent } from './badge-creation.component';
 import { BadgeDetailComponent }  from './badge-detail.component';
 import { BadgesComponent }  from './badges.component';
 import { DashboardComponent }  from './dashboard.component';
